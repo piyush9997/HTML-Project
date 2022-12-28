@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>food delivery website</title>
+    <style>
+        #navbar{
+            display: flex;
+            background-color: transparent;
+            border: 3px solid transparent;
+            border-radius: 10px;
+
+        }
+        .item{
+            text-decoration: none;
+            padding: 30px;
+            margin-top: -5px;
+            font-size: 20px;
+           
+
+        }
+        #navbar ul{
+            display: flex;
+            
+            list-style: none;
+        }
+        #navbar ul li a{
+            text-decoration: none;
+            color: white;
+            padding: 15px;
+            font-size: 30px;
+            
+        }
+        
+        #navbar ul li a:hover{
+            color: red;
+            border-radius: 15px ;
+            padding: 15px;
+            background-color: beige;
+        }
+        body{
+            
+            
+            background: url('https://www.foodiesfeed.com/wp-content/uploads/2021/01/hot-shakshuka.jpg') no-repeat center center/cover;
+        }  
+        #home{
+            text-align: center;
+            color: whitesmoke;
+            padding-bottom: 150px;
+            
+
+        } 
+        .ram{
+            font-size: 60px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            border: 3px solid beige;
+            background-color: beige;
+            border-radius: 50px;
+            color: black;
+        }
+        .order{
+            font-size: larger;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            border-radius: 15px;
+            border: 2px solid white;
+            color: white;
+            background-color: transparent;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .servicess{
+            text-align: center;
+            color: black;
+            font: bolder;
+            font-size: 50px;
+            border: 3px solid white;
+            border-radius: 21px;
+            background-color: beige;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .order a{
+            text-decoration: none;
+            color: white;
+        }
+        #services{
+            display: flex;
+            border: 5px solid black;
+            width: 500px;
+            height: 219px;
+            border-radius: 45px;
+            border-block-color: white;
+        }
+        
+        .box img{
+            height: 91px;
+        }
+        #services.box.ordering{
+            text-align: center;
+        }
+        #services-6{
+            display: flex;
+            border: 5px solid black;
+            width: 500px;
+            margin-left: 309px;
+            border-radius: 45px;
+            border-block-color: white;
+        }
+        .box-2 img{
+            height: 91px;
+            
+            
+            
+        }
+        .box h2{
+            text-align: center;
+            color: white;
+        }
+        .services-container{
+            display: flex;
+            flex-direction: row;
+        }
+        div .box{
+            margin-left: 159px;
+        }
+        .box-2{
+            margin-left: 181px
+        }
+        .box-2 h2{
+            color: white;
+        }
+        .north{
+            font-size: 16px;
+            
+            color: white;
+            
+            margin-left: 10px;
+            
+        }
+        .south{
+            font-size: 16px;
+            color: white;
+            margin-left: 10px;
+        }
+        .order33{
+            border: 3px solid white;
+            margin-left: 26px;
+            cursor: pointer;
+        }
+        .Order35{
+            
+            border: 3px solid white;
+            cursor: pointer;
+            margin-left: 26px;
+        }
+        .lorem{
+            margin-bottom: 36px;
+            font-size: 30px;
+
+        }
+        #copy img{
+            height: 47px;
+            display: flex;
+            
+            
+            
+        }
+        footer{
+            background: white;
+            padding-left: 15px;
+            padding-bottom: 11px;
+            flex-direction: row;
+            display: flex;
+            
+        }
+        #about {
+            margin-left: 20cm;
+            
+            
+            
+        }
+        #copy h3{
+            color: red;
+        }
+        #about h3{
+            color: red ;
+        }
+
+
+        
+
+        
+        
+    </style>
+</head>
+<body>
+    <nav id="navbar">
+        <ul>
+            <li class="item" id="p"><a href="#">Home</a></li>
+            <li class="item" id="q"><a href="#">contact</a></li>
+            <li class="item" id="r"><a href="#">about us</a></li>
+            <li class="item" id="s"><a href="#">Advertise with us</a></li>
+            
+        </ul>
+    </nav>
+    <section id="home">
+        <h1 class="ram">Welcome to dish cart</h1>
+        <p class="lorem">Dishchart! Now you can order any north indian or south indian meal at you door step.</p>
+        <button class="order"><a href="#">Order now</a></button>
+    </section>
+
+    <h1 class="servicess">Our services</h1>
+    <section class="services-container">
+       
+        <div id="services">
+            <div class="box">
+                <img src="https://as2.ftcdn.net/v2/jpg/02/12/69/59/1000_F_212695921_GaiXzq0hWQHwAtNzTNkEu7HYKpBfcgmj.jpg" alt="">
+                <h2 class="ordering">Food ordering</h2>
+                <p class="north">North indian food</p>
+                <button class="order33">Order Now</button>
+
+            </div>
+        </div>
+        <div id="services-6">
+            <div class="box-2">
+                <img src="https://as2.ftcdn.net/v2/jpg/01/86/33/71/1000_F_186337169_B5SffLDHzatmWYIQcBVZovwlFAKe4P16.jpg" alt="">
+                <h2 class="ordering-2">Food ordering</h2>
+                <p class="south">South indian food</p>
+                <button class="Order35">Order Now</button>
+
+            </div>
+        </div>
+
+    </section>
+    <footer>
+        <div id="copy">
+            <h3>Our partner</h3>
+            <img src="https://cdn.pixabay.com/photo/2018/05/08/21/28/apple-3384010_960_720.png" alt="">
+            <img src="https://pngimg.com/uploads/amazon/amazon_PNG21.png" alt="">
+            <img src="https://www.freepnglogos.com/uploads/microsoft-logo-images-png-33.png" alt="">
+        </div>
+        <div id="about">
+            <h3>About us</h3>
+            <h4>Dischart!
+                It is not only food delivery website it is emotionof thousands.
+            </h4>
+            <h4>Mobile no.-1234567890</h4>
+            <h4>Email ID:- piyushthakur@GMAIL.COM</h4>
+        </div>
+    </footer>
+</body>
+</html>
